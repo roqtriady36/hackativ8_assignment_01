@@ -1,0 +1,12 @@
+@baseUrl=http://localhost:4001
+
+###
+GET {{baseUrl}}/products
+Accept: application/json
+Content-Type: application/json
+
+
+###
+GET {{baseUrl}}/products/a
+Accept: application/json
+Content-Type: application/json
